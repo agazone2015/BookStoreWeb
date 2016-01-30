@@ -1,0 +1,155 @@
+#headerWrapper {
+    widows: 100%;
+    word-wrap: normal;
+}
+.logo {
+    padding: 20px;
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: 900;
+}
+.tagline {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: -240px;
+    margin-right: 80px;
+    font-family: serif;
+}
+.nav-wrapper {
+    float: left;
+}
+#bookListWrapper {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+#bookListWrapper input {
+    width: 25%;
+    padding-left: 0px;
+}
+#bookListWrapper .book {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.book-details {
+    margin-left: 200px;
+    padding-left: 20px;
+    text-align: left;
+}
+ul .list-unstyled {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.btn {
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+#shelf {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+.container.ng-enter {
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    opacity: 0;
+}
+.container.ng-enter-active {
+    opacity: 1;
+}
+.book.ng-leave {
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    opacity: 1;
+    left: 0;
+}
+.book.ng-leave-active {
+    opacity: 0;
+    left: 600px;
+}
+.book.ng-enter {
+    -webkit-transition: 0.5s linear all;
+    -moz-transition: 0.5s linear all;
+    -o-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    opacity: 0;
+    left: 600px;
+}
+.book.ng-enter-active {
+    opacity: 1;
+    left: 0;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: black;
+    background-color: #e5e5e5;
+    /* Old browsers */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+    background-image: -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+    background-image: linear-gradient(to bottom, #f5f5f5 0%, #e5e5e5 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5', GradientType=0);
+    /* IE6-9 */
+    background-repeat: repeat-x;
+    /* Repeat the gradient */
+    border-bottom: 1px solid #d5d5d5;
+}
+/* Main marketing message and sign up button */
+
+@media only screen and (max-width: 505px) {
+    #headerWrapper {
+        widows: 50%;
+        word-wrap: normal;
+    }
+    .logo {
+        padding: 40px;
+        font-size: 50px;
+        font-family: fantasy;
+        font-weight: 700;
+    }
+    .tagline {
+        font-size: 80%;
+        word-wrap: normal;
+        margin-top: 70px;
+        font-family: serif;
+    }
+    .nav-wrapper {
+        float: left;
+        padding-left: 30px;
+    }
+    .book-details {
+        padding-top: 240px;
+        margin-left: 0px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .book {
+        margin: auto;
+    }
+    .order {
+        text-align: right;
+    }
+}
